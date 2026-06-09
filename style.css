@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    background:  #f4f4f4;
+    padding: 30px;
+}
+
+button{
+    padding: 19px 20px;
+    background: rgb(42, 42, 183);
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#user{
+    margin-top: 15px;
+}
