@@ -23,3 +23,12 @@ button{
 #user{
     margin-top: 15px;
 }
+
+.card{
+    background: #f4f4f4;
+    width: 300px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #7a7a7a;
+}
