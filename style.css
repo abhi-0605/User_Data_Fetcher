@@ -20,6 +20,10 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background: rgb(28, 28, 140);;
+}
+
 #user{
     margin-top: 15px;
 }
@@ -27,8 +31,8 @@ button{
 .card{
     background: #f4f4f4;
     width: 300px;
-    margin: 20px auto;
-    padding: 25px;
+    margin: 25px auto;
+    padding: 35px;
     border-radius: 12px;
     box-shadow: 0 0 5px #7a7a7a;
 }

@@ -1,7 +1,7 @@
 
 async function getuser(){
     const user=document.getElementById("user");
-    user.innerHTML="Loading..";
+    user.innerHTML="<h3>Loading..</h3>";
 
     try{
         const response=await fetch("https://jsonplaceholder.typicode.com/users");
@@ -9,8 +9,9 @@ async function getuser(){
 
         user.innerHTML="";
 
+        let data="";
         users.forEach(element => {
-            user.innerHTML+=`
+            data+=`
             <div class="card">
                 <h2>${element.name}</h2>
                 <p>Email: ${element.email}</p>
@@ -19,6 +20,7 @@ async function getuser(){
             </div>
             `;
         });
+        user.innerHTML=data;
     }catch(error){
         user.innerHTML="failed fetching data";
         console.log(error);
